@@ -2,7 +2,7 @@
 // A função deve retornar:
 //   - a palavra "fizz" para os numeros multiplos de 3
 //   - a palavra "buzz" para os números multiplos de 5
-//   - a palavra fizzbuzz para os números multiplos de 3 e 5
+//   - a palavra "fizzbuzz" para os números multiplos de 3 e 5
 //   - o próprio número mas em formato String caso não seja múltiplo de 3 ou 5
 
 const fizzbuzz = require('./fizzbuzz');
