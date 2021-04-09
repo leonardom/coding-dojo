@@ -20,6 +20,14 @@ test('expect fizzbuzz(5) to return buzz', () => {
   expect(fizzbuzz(5)).toBe("buzz");
 });
 
+test('expect fizzbuzz(6) to return fizz', () => {
+  expect(fizzbuzz(6)).toBe("fizz");
+});
+
+test('expect fizzbuzz(7) to return 7', () => {
+  expect(fizzbuzz(7)).toBe(7);
+});
+
 test('expect fizzbuzz(15) to return fizzbuzz', () => {
   expect(fizzbuzz(15)).toBe("fizzbuzz");
 });
